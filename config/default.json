@@ -1,0 +1,34 @@
+{
+    "NightmareConfig":{
+        "show":true,
+        "waitTimeout":3000,
+        "gotoTimeout":3000,
+        "loadTimeout":3000,
+        "executionTimeout":3000,
+        "dock": true,
+        "openDevTools": {
+            "mode": "detach"
+        }
+    },
+    "IDO":[
+        {
+            "number":40,
+            "site":"https://lz.finance",
+            "path":"/pad",
+            "view":true,
+            "rule":{
+                "typeSelector":"",
+                "typeValue":"",
+                "click":"",
+                "waitSelector":".pool-row",
+                "runJs":"finance.js",
+                "view":{
+                    "typeSelector":"",
+                    "typeValue":"",
+                    "click":"",
+                    "waitSelector":".tabs-component"
+                } 
+            }
+        }
+    ]
+}
